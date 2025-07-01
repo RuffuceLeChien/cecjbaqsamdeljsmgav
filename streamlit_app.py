@@ -1,6 +1,4 @@
 import streamlit as st
-
-import streamlit as st
 import requests
 import random
 import string
@@ -56,8 +54,6 @@ with col1:
 with col2:
     st.subheader("Informations")
     st.write("• Emails temporaires valides 1h")
-    st.write("• Parfait pour les inscriptions de jeu")
-    st.write("• Aucune donnée sauvegardée")
 
 # Section pour les joueurs multiples
 st.markdown("---")
